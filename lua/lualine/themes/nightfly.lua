@@ -6,7 +6,7 @@
 -- LuaFormatter off
 local colors = {
   -- StatusLine background color.
-  color0 = '#2c3043',
+  color0 = '#0f172a',
 
   -- Mode colors.
   color1 = '#82aaff',
@@ -28,29 +28,29 @@ local colors = {
 -- LuaFormatter on
 return {
   normal = {
-    a = {fg = colors.color6, bg = colors.color1},
-    b = {fg = colors.color1, bg = colors.color0},
-    c = {fg = colors.color8, bg = colors.color0}
+    a = { fg = colors.color6, bg = colors.color1 },
+    b = { fg = colors.color1, bg = colors.color0 },
+    c = { fg = colors.color8, bg = colors.color0 }
   },
   insert = {
-    a = {fg = colors.color6, bg = colors.color2},
-    b = {fg = colors.color2, bg = colors.color0}
+    a = { fg = colors.color6, bg = colors.color2 },
+    b = { fg = colors.color2, bg = colors.color0 }
   },
   visual = {
-    a = {fg = colors.color6, bg = colors.color3},
-    b = {fg = colors.color3, bg = colors.color0}
+    a = { fg = colors.color6, bg = colors.color3 },
+    b = { fg = colors.color3, bg = colors.color0 }
   },
   command = {
-    a = {fg = colors.color6, bg = colors.color4},
-    b = {fg = colors.color4, bg = colors.color0}
+    a = { fg = colors.color6, bg = colors.color4 },
+    b = { fg = colors.color4, bg = colors.color0 }
   },
   replace = {
-    a = {fg = colors.color6, bg = colors.color5},
-    b = {fg = colors.color5, bg = colors.color0}
+    a = { fg = colors.color6, bg = colors.color5 },
+    b = { fg = colors.color5, bg = colors.color0 }
   },
   inactive = {
-    a = {fg = colors.color7, bg = colors.color0},
-    b = {fg = colors.color7, bg = colors.color0},
-    c = {fg = colors.color7, bg = colors.color0}
+    a = { fg = colors.color7, bg = colors.color0 },
+    b = { fg = colors.color7, bg = colors.color0 },
+    c = { fg = colors.color7, bg = colors.color0 }
   },
 }

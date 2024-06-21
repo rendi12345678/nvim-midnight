@@ -3,7 +3,7 @@ local highlight = vim.api.nvim_set_hl
 
 local none = "NONE"
 -- Background and foreground
-local black = "#011627"
+local black = "#020617"
 local white = "#c3ccdc"
 local bg = black
 if g.nightflyTransparent then
